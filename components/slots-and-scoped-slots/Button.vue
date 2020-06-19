@@ -24,7 +24,7 @@ $primary-color: #00ae76;
   border: 2px solid $primary-color;
   padding: 10px;
   font-size: 16px;
-  border-radius: 20px;
+  border-radius: 2px;
   color: $primary-color;
 
   &:hover {
