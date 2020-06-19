@@ -1,12 +1,15 @@
 <template>
-  <div class="btn">{{ name }} - <slot /></div>
+  <div class="btn">
+    <h4 v-if="title">{{ title }}</h4>
+    <slot />
+  </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
   props: {
-    name: {
+    title: {
       type: String,
       default: '',
     },
