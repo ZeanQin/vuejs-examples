@@ -1,5 +1,7 @@
 <template>
-  <div class="container"></div>
+  <b-container>
+    <b-row> <b-col> Zean Qin</b-col></b-row>
+  </b-container>
 </template>
 
 <script lang="ts">
